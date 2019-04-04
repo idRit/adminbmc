@@ -1,0 +1,93 @@
+/* css for admin dashboard  */
+h1{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.main-dashboard{
+    margin: 0;
+    padding: 0;
+}
+.col-md-6{
+    margin: 0;
+    padding: 0;
+}
+.col-md-3{
+    padding: 0;
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+.main-dashboard>.my-nav{
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 0px;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.main-dashboard>.row>.admin-options{
+    /* border: 2px  solid black; */
+    /* background-color: red; */
+}
+.admin-categories{
+    background-color: rgb(255, 255, 255);
+    /* border: 2px solid gray; */
+    border-radius: 20px;
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+.main-dashboard>.row>.admin-content>.card-view{
+    /* background-color: green; */
+    width: 100%;
+    margin-bottom: 10%;
+    
+
+}
+.main-dashboard>.row>.admin-content>.card-view>.card{
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+.admin-content{
+    /* background-color: blue; */
+}
+.admin-options>.admin-categories>.category-list>.list-item{
+    border: 2px solid rgba(182, 182, 182,0.5);
+    width: 80%;
+    margin-top: 5%;
+    background-color: beige;
+    border-radius: 5px;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto' , sans-serif;
+    padding: 5px 5px 5px 5px;
+    text-decoration-line: none;
+}
+.admin-options>.admin-categories>.category-list>.list-item:hover{
+    box-shadow: 2px 2px 7px 2px gray;
+}
+hr{
+    width:100%;
+}
+.admin-categories>.card>.card-body>.card-title{
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.admin-categories>.card>.card-body>.card-title:hover{
+    box-shadow: 2px 2px 7px 2px gray;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}

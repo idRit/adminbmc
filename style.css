@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    padding: 0;
+}
+
+.logo-container>.logo{
+    background-image: url("images/logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+}
+.col-md-6{
+    padding: 0;
+}
+.logo-container{
+    /* position: relative; */
+    /* background-color: black; */
+    width: 750px;
+    height: 400px;
+    /* top: 85%; */
+    /* left: 35%; */
+    margin-top: 250px;
+    margin-left: 90px;
+}
+.logo-container>h1{
+    font-family: 'Roboto',sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.details-container{
+    background-color: #ACADBC;
+    height: 920px;
+    width: 100%;
+}
+.details-container>.admin-logo{
+margin-top: 90px;
+margin-left: 400px;
+/* background-color: green; */
+width: 170px;
+height: 170px;
+text-align: center;
+}
+.details-container>.admin-form{
+    background-color: rgba(255, 255, 255);
+    border-radius: 30px;
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 3px 3px 7px 3px gray;
+
+}
+.admin-form>form>.username , .admin-form>form>.password{
+    border-bottom: 2px solid blue;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 10px 10px 10px 10px;
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    background-color: rgba(255, 255, 255, 0)
+}
+.admin-form>form>label{
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.submit-btn{
+    background-color: rgb(3, 6, 39);
+    margin-left: 10%;
+    width: 80%;  
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+}
+.submit-btn:hover{
+    background-color: rgb(37, 33, 92);
+    box-shadow: 2px 2px 7px 2px gray;
+    transition: 0.2s;
+}
+.submit-btn:focus{
+    border-color: none;
+}
+.mobile{
+    display: none;
+}
+@media(max-width:1400px){
+    .main-container{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+   
+}
+@media(max-width:1538px){
+    .logo-container{
+        /* position: relative; */
+        /* background-color: black; */
+        width: 750px;
+        height: 400px;
+        /* top: 85%; */
+        /* left: 35%; */
+        margin-top: 250px;
+        margin-left: 25px;
+    }
+    .details-container>.admin-logo{
+        margin-top: 90px;
+        margin-left: 310px;
+        /* background-color: green; */
+        width: 170px;
+        height: 170px;
+        text-align: center;
+        }
+}
+@media(max-width:2560px){
+    .logo-container{
+        /* position: relative; */
+        /* background-color: black; */
+        width: 750px;
+        height: 400px;
+        /* top: 85%; */
+        /* left: 35%; */
+        margin-top: 250px;
+        margin-left: 300px;
+    }
+    .logo-container>h1{
+        font-family: 'Roboto',sans-serif;
+        font-size: 30px;
+        margin-left: 100px;
+    }
+    .details-container>.admin-logo{
+        margin-top: 90px;
+        margin-left: 550px;
+        /* background-color: green; */
+        width: 170px;
+        height: 170px;
+        text-align: center;
+        }
+}
